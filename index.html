@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./src/bootstrap.css"
+    />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/styles.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div
+      class="full-screen-container vh-100 vw-100 d-flex justify-content-center align-items-center"
+    >
+      <div class="calc-container rounded-3 px-2">
+        <div>
+          <input class="container text-end bg-transparent border-0 fs-1 pt-5 pe-3" type="text" placeholder="0" disabled id="result"/>
+        </div>
+        <div class="container mt-5 text-center">
+          <div class="row mb-3 gap-4">
+            <button class="col btn p-3 fs-5 hover-effect text-white bg-danger ">
+              AC
+            </button>
+            <button class="col btn p-3 fs-5 hover-effect text-white bg-danger ">
+              DEL
+            </button>
+            <button class="col btn p-3 fs-5 hover-effect text-white operator">
+              %
+            </button>
+            <button class="col btn p-3 fs-5 hover-effect text-white operator">
+              /
+            </button>
+          </div>
+          <div class="row mb-3 gap-4">
+            <button class="col btn p-3 fs-5 hover-effect text-white ">
+              7
+            </button>
+            <button class="col btn p-3 fs-5 hover-effect text-white ">
+              8
+            </button>
+            <button class="col btn p-3 fs-5 hover-effect text-white ">
+              9
+            </button>
+            <button class="col btn p-3 fs-5 hover-effect text-white operator">
+              *
+            </button>
+          </div>
+          <div class="row mb-3 gap-4">
+            <button class="col btn p-3 fs-5 hover-effect text-white ">
+              4
+            </button>
+            <button class="col btn p-3 fs-5 hover-effect text-white ">
+              5
+            </button>
+            <button class="col btn p-3 fs-5 hover-effect text-white ">
+              6
+            </button>
+            <button class="col btn p-3 fs-5 hover-effect text-white operator">
+              -
+            </button>
+          </div>
+          <div class="row mb-3 gap-4">
+            <button class="col btn p-3 fs-5 hover-effect text-white ">
+              1
+            </button>
+            <button class="col btn p-3 fs-5 hover-effect text-white ">
+              2
+            </button>
+            <button class="col btn p-3 fs-5 hover-effect text-white ">
+              3
+            </button>
+            <button class="col btn p-3 fs-5 hover-effect text-white operator">
+              +
+            </button>
+          </div>
+          <div class="row mb-4 gap-4">
+            <button class="col btn p-3 fs-5 hover-effect text-white ">
+              00
+            </button>
+            <button class="col btn p-3 fs-5 hover-effect text-white ">
+              0
+            </button>
+            <button class="col btn p-3 fs-5 hover-effect text-white ">
+              .
+            </button>
+            <button class="col btn p-3 fs-5 hover-effect text-white equal">
+              =
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./src/script.js"></script>
+  </body>
+</html>

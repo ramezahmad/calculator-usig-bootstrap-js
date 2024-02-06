@@ -1,0 +1,28 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono";
+}
+.full-screen-container{
+  background: radial-gradient(circle, rgba(31,49,81,1) 0%, rgba(58,97,124,1) 20%, rgba(2,0,36,1) 100%);
+}
+.calc-container{
+  background-color: #3387a8;
+  width:600px;
+}
+button{
+  border-radius: 6px;
+  transition: 0.6s !important;
+}
+.operator{
+  background-color: orange;
+}
+.equal{
+  background-color: navy;
+}
+.hover-effect:hover{
+  box-shadow: 0 1px 150px rgb(33, 30, 196);
+  transform: translateY(-5px);
+}
